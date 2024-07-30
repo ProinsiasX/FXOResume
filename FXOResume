@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francis O'Donnell Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #1180a1;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #1180a1;
+            color: #040405af;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #11191b 3px solid;
+        }
+        header a {
+            color: #040405af;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header ul li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main {
+            padding: 20px;
+            background: #f3fc8052;
+            margin-top: 20px;
+        }
+        .main h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .main section {
+            margin-bottom: 20px;
+        }
+        .main h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        footer {
+            background: #1180a1;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Resume</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container main">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I have a robust background in Identity and Access Management (IAM) and Privileged Account Management (PAM) functions, with over 14 years of hands-on technical experience in provisioning, deprovisioning, certification and role-based access control. My experience includes supporting Beyondtrust and CyberArk PAM products, coordinating user account provisioning, and ensuring compliance with IAM principles. Over these same 14 years I gained experience working alongside Audit (Internal & External) and Risk teams, where I conducted risk and vulnerability assessments, identified security deviations, and recommended solutions. My work in cybersecurity implementation has given me a solid understanding of IAM services offered by cloud service providers such as AWS Identity Services and Azure AD (now Entra). I am an organized problem solver with solid written and verbal communication skills, adept at understanding technical details and documenting assessments and analyses. My primary IAM and PAM experience has been developed while working in the Financial Services industry, with my primary focus on IAM and PAM processes and operations. I am familiar with KPI/KRI metrics and reporting, and I have prior experience with application integrations involving authentication and authorization services such as SAML, SSO, and MFA. My technical toolkit includes SailPoint, CyberArk, Ping, Delinea, and Active Directory administration, including monitoring, troubleshooting, and Group Policy Management.</p>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+
+            <h3>PAM Solutions Engineer at TransUnion (contract)</h3>
+            <p>February 2023 – October 2023</p>
+            <ul>
+                <li>- Onboarded/offboarded assets into BeyondInsight Console via Postman API scripts.</li>
+                <li>- Managed Asset Smart Rules and end-user access to systems.</li>
+                <li>- Researched and troubleshooted failed software connections (SSH & RDP).</li>
+                <li>- Trained application team members on Password Safe application usage.</li>
+                <li>- Wrote, reviewed, and maintained functional process documents.</li>
+                <li>- Managed functional and user accounts in Sailpoint IdentityIG.</li>
+                <li>- Provided excellent customer service for teams using Password Safe.</li>
+                <li>- Supported UVM installations in global regions and decommissioned old systems.</li>
+                <li>- Researched and resolved failed automated transactions from AWS into PasswordSafe.</li>
+                
+            </ul>
+        
+
+                <h3>Technical Manager at Optiv</h3>
+            <p>August 2021 – August 2022</p>
+            <ul>
+                <li>- Provided technical oversight on BeyondTrust and CyberArk customer engagements.</li>
+                <li>- Coordinated with Project Manager Organization for timely and budget-compliant project delivery.</li>
+                <li>- Led delivery team to meet tasks in customers' Statements of Work.</li>
+                <li>- Acted as the primary technical contact for customers and vendors.</li>
+                <li>- Collaborated with Architects and Engineers to deliver client documents through QA.</li>
+                <li>- Developed, wrote, and maintained functional process documents.</li>
+                <li>- Resolved implementation conflicts to ensure successful customer experiences.</li>
+                <li>- Collected technical scoping for Change Orders during engagements.</li>
+                <li>- Reviewed pre-sales Statements of Work for scoping and delivery accuracy.</li>
+                <li>- Reported weekly project status to leadership, noting blockers and dependencies.</li>
+            </ul>
+
+                <h3>Team Lead PAM Development Engineers at FIS</h3>
+            <p>September 2019 – August 2021</p>
+            <ul>
+                <li>- Coordinated release activities using Agile methodologies in JIRA.</li>
+                <li>- Managed DevOps team implementing Hashi Vault instances in AWS.</li>
+                <li>- Led management responsibilities for Azure instances of Hashi Vault.</li>
+                <li>- Troubleshot and debugged environments and processes for continuous improvement.</li>
+                <li>- Collaborated with Dev engineering teams on leveraging Hashi Vault capabilities.</li>
+                <li>- Presented use cases for teams exploring Hashi Vault as a new security platform.</li>
+                <li>- Implemented MFA tools including RSA, Duo, and YubiKey.</li>
+                <li>- Ensured PCI DSS compliance for new systems and processes.</li>
+            </ul>
+
+                <h3>Senior IAM Analyst at Worldpay</h3>
+            <p>January 2018 – September 2019</p>
+            <ul>
+            <li>- Coordinated on-boarding of applications for provisioning under IAM.</li>
+                <li>- Enforced IAM principles: least privilege access, password management, audit logging, RBAC.</li>
+                <li>- Processed user access on/off-boarding within documented SLA.</li>
+                <li>- Conducted quarterly Employee Access Reviews and remediated findings.</li>
+                <li>- Automated daily Identity and PAM processes using PowerShell, BASH, and Perl scripting.</li>
+                <li>- Wrote, developed, and maintained business functional requirements including PCI DSS.</li>
+                <li>- Supported RSA and Duo MFA toolsets.</li>
+                <li>- Wrote and peer-reviewed documentation for manual provisioning processes.</p></li>
+            </ul>
+                <h3>Senior Sales Engineer at Digital Defense Inc</h3>
+            <p>February 2017 – October 2017</p>
+            <ul>
+            <li>- Provided technical pre-sales expertise and support for Channel Partners.</li>
+                <li>- Supported RFI, RFP, and RFQ activities with technical responses.</li>
+                <li>- Generated technical solution proposals and collateral content.</li>
+                <li>- Coordinated and presented product demonstrations via webinars, on-site, and industry conferences.</li>
+                <li>- Managed customer technical experience throughout the sales cycle from RFI to proof of concept.</p></li>
+            </ul>    
+                <h3>Sales Engineer at BeyondTrust</h3>
+            <p>November 2015 – November 2016</p>
+            <ul>
+            <li>- Supported SMB sales team with technical resources on Privileged Access Management solutions.</li>
+                <li>- Assisted sales team in qualifying opportunities.</li>
+                <li>- Demonstrated Privilege Access Management solutions to customers.</li>
+                <li>- Answered customer questions on use cases and feature/functionality.</li>
+                <li>- Built Proof of Concept environments on-site and in the cloud.</li>
+                <li>- Assisted customers in defining success criteria for Proof of Concept.</li>
+                <li>- Provided technical responses to customer RFIs and pricing.</li>
+            </ul>
+                <h3>IAM Support Analyst II at Vantiv</h3>
+            <p>November 2010 – November 2015</p>
+            <ul>
+                <li>- Subject matter expert on UNIX privilege identity management.</li>
+                <li>- Wrote security profiles for access across multiple systems and OS platforms.</li>
+                <li>- Coordinated employee on/off-boarding with all departments.</li>
+                <li>- Collaborated with Linux System Admins on discovering and securing admin credentials.</li>
+                <li>- Automated daily tasks using Bash, Perl, and PowerShell.</li>
+                <li>- Cross-trained team members for seamless duty coverage.</li>
+                <li>- Supported RSA software and hardware tokens.</li>
+                <li>- Implemented least privilege access adhering to corporate PCI DSS standards.</li>
+            
+            </ul>
+            <h2>Skills and Applications</h2>
+            <div class="row">
+                <div class="column">
+                    <ul>
+                        <li>MS Office</li>
+                        <li>Lean Six Sigma</li>
+                        <li>Linux, Windows</li>
+                        <li>AWS, Azure</li>
+                        <li>HTML, CSS</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <ul>
+                        <li>RSA, Duo, Yubikey</li>
+                        <li>PowerShell</li>
+                        <li>GitBash/Hub</li>
+                        <li>JSON</li>
+                        <li>Postman API platform</li>
+                        <li>Terminal, CLI</li>
+                    </ul>
+                </div>
+            </div>
+          
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:ProinsiasXavier@gmail.com">ProinsaisXavier@gmail.com</a></p>
+            <p>Phone: Your phone number</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">Your LinkedIn Profile</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Frank O'Donnell. All rights reserved.</p>
+    </footer>
+</body>
+</html>
